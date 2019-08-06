@@ -20,7 +20,7 @@
 #include <TString.h>
 
 void ntuple_bragg() {
-
+  TFile file0;
   TString file;
   for (Int_t j=1; j<=25; j++) {
     if (j==1){
